@@ -1,0 +1,35 @@
+main {
+    max-width: 840px ;
+}
+main h1 {
+    background-color: rgb(103, 149, 187);
+    color: rgb(65, 60, 56) ;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba( 0 , 0 , 0 , 0); /* 1️⃣ */
+    padding: 1rem;
+    background-color: rgb(139, 183, 219);
+    color: rgb(100, 73, 38);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+}
+
+p { padding: 0;}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
