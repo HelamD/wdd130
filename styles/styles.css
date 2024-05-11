@@ -1,35 +1,104 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header part */  
+
+header {
+    background-color:  rgb(52, 147, 224);
+    
+    margin: 5px;
+
+    
+
+}
+
+header nav a {
+    display: block;
+    text-align:auto;
+    font-size: 15px;
+    padding: 1rem;
+    color:rgb(240, 210, 190)
+    
+    
+}
+
+
+/* MAIN PART */
 main {
     max-width: 840px ;
+    margin-bottom: 4rem;
 }
+main img { 
+    box-shadow: 0 0 30px rgb(146, 146, 146);
+    padding: 2px;
+    border: 1px solid rgb(111, 123, 134);
+    float: right;
+    margin 
+    
+}
+
 main h1 {
-    background-color: rgb(103, 149, 187);
-    color: rgb(65, 60, 56) ;
+    color:black;
+    
 }
+
+main p {
+    padding: 0.5rem;
+    margin-bottom: 1rem ;
+}
+
+
+main ul li {
+    list-style-type: circle;
+  }
+
+/* Class Selectors */
+.box {
+    padding: 1rem;
+    margin:1rem;
+    border:1rem solid rgba( 0 , 0 , 0 , 0); /* 1️⃣ */;
+    background-color: rgb(208, 252, 248);
+    color: rgb(100, 73, 38);
+}
+
+
+/* ASIDE PART */ 
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba( 0 , 0 , 0 , 0); /* 1️⃣ */
-    padding: 1rem;
-    background-color: rgb(139, 183, 219);
-    color: rgb(100, 73, 38);
     text-align: center;
+    position: relative;
+}
+
+
+aside h2 {
+    position: absolute;
+    font-size: 50px;
+    left: 60px;
+    color: rgb(216, 149, 48);
 }
 
 aside img {
-    width: 200px;
+    width: 320px;
     height: auto;
+    
 }
 
-main img {
-    width: 200px;
-    height: auto;
-}
 
-p { padding: 0;}
+
+
+
+
+/* FOOTER PART*/
 
 footer {
     margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
 }
+
+
