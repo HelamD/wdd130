@@ -1,14 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+
+
+
+
+
+* {
+    width: 95% ;
+    margin: 25px;
 }
+
 
 :root {
     --primary-color: #219EBC;
     --secondary-color: #023047;
     --Accent1-color: #FB8500;
     --Accent2-color: #8ECAE6;
+
+    --heading-font: 'nunito ital', sans-serf;
+    --paragraph-font: 'poppins ital', sans-serf;
+
+    --nav-background-color: #219EBC;
+    --nav-link-color: hsl(0, 0%, 97%);
+    --nav-hover-link-color: #023047;
+    --nav-hover-background-color:#8ECAE6;
 }
+
+
+
+
+/* HEADEAR */
+
+
+header img {
+
+    width: 400px;
+    float: left;
+    
+
+}
+
+nav a {
+    
+    text-align:bottom;
+    font-size: 40px;
+    padding: 2rem;
+
+}
+/* MAIN PART   */
+
+
+.hero {
+    position: relative;
+}
+
+.hero img{
+
+width: 100%;
+height: auto;
+position: relative;
+
+}
+
+main h1 {
+    font-size: 120px;
+    position: absolute;
+    top: 600px;
+    margin-left: 1300px;
+    color: aliceblue;
+}
+
+
+article {
+    position: absolute;
+    transform: translate(-15%, -140%);
+    
+}
+
+
+
+article img {
+     width: 600px;
+     float: right; 
+     background-color: rgba(31, 69, 150, 0.7);
+     padding: 20px;
+     padding-left: 164rem;
+     
+      
+      }
+
+article p {
+    position: absolute;
+    font-size: 50px;
+    margin: 150px;
+    border: 100px;
+}
+
+
+
+
+
+    
+    
+    
+
+
 
