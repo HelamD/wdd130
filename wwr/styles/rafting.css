@@ -4,11 +4,6 @@
 
 
 
-* {
-    width: 95% ;
-    margin: 25px;
-}
-
 
 :root {
     --primary-color: #219EBC;
@@ -26,14 +21,17 @@
 }
 
 
+body {
 
+    width: 980px;
+}
 
 /* HEADEAR */
 
 
 header img {
 
-    width: 400px;
+    width: 100px;
     float: left;
     
 
@@ -42,7 +40,7 @@ header img {
 nav a {
     
     text-align:bottom;
-    font-size: 40px;
+    font-size: 15px;
     padding: 2rem;
 
 }
@@ -61,40 +59,43 @@ position: relative;
 
 }
 
-main h1 {
-    font-size: 120px;
+h1 {
+    font-size: 40px;
     position: absolute;
-    top: 600px;
-    margin-left: 1300px;
+    top: 60px;
+    right:0 ;
+    left:0 ;
+    text-align: center;
     color: aliceblue;
 }
 
 
 article {
     position: absolute;
-    transform: translate(-15%, -140%);
+    top: 150px;
     margin: 20px;
-    
+    width:80% ;
+    background-color: rgba(31, 69, 150, 0.7);
 }
 
 
 
-article img {
-     width: 600px;
+.hero article img {
+     width: 100px;
      float: right; 
-     background-color: rgba(31, 69, 150, 0.7);
+
      padding: 20px;
-     padding-left: 164rem;
+     
      
       
       }
 
 article p {
-    position: absolute;
-    font-size: 50px;
-    margin: 150px;
+   
+    font-size: 20px;
+    
     border: 100px;
-    float:right;
+    
 }
 
 
