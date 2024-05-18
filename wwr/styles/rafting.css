@@ -28,22 +28,48 @@ body {
 
 /* HEADEAR */
 
+header {
+    display: grid;
+    margin: 1rem auto;
+    align-items: center;
+    
+    grid-template-columns: 120px 1fr 2fr;
+    max-width: 1500px;
+    background-color: #e9f2f7;
+    padding: 1rem ;
+    
+}
+
+nav {
+    text-align: right;
+}
+
+
+.grid {
+     display: flex;
+     list-style:none;
+     
+     justify-content:space-between ;
+}
+
+.grid a {
+    text-decoration: none;
+    display: block;
+    color: navy;
+    
+}
 
 header img {
-
+    height: auto;
     width: 100px;
-    float: left;
+    
     
 
 }
 
-nav a {
-    
-    text-align:bottom;
-    font-size: 15px;
-    padding: 2rem;
 
-}
+
+
 /* MAIN PART   */
 
 
@@ -62,7 +88,7 @@ position: relative;
 h1 {
     font-size: 40px;
     position: absolute;
-    top: 60px;
+    top: 10px;
     right:0 ;
     left:0 ;
     text-align: center;
@@ -72,9 +98,9 @@ h1 {
 
 article {
     position: absolute;
-    top: 150px;
+    top: 90px;
     margin: 20px;
-    width:80% ;
+    width:95% ;
     background-color: rgba(31, 69, 150, 0.7);
 }
 
@@ -100,7 +126,15 @@ article p {
 
 
 
+section {
+    max-width: 1500px;
+}
 
+figure {
+    display:flex;
+    flex-flow: column;
+    max-width: 100px;
+}
 
 
 
