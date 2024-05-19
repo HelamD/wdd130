@@ -124,20 +124,71 @@ article p {
     
 }
 
-
+/* SECTION 1 */
 
 section {
-    max-width: 1500px;
+    max-width: 980px;
+    padding: 1rem;
+    margin:1rem;
+}
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items:center ;
+    background-color: #e9f2f7 ;
+    
+}
+section img {
+    width: 170px;
+    padding: 0;
+    margin: 1rem;
+    grid-column: 1;
+    grid-row: 2;
+    float:left
+}
+
+.history h2{
+    grid-column: 2;
+    
+}
+
+.history section p {
+    grid-column: 1;
+    
+    
+}
+
+
+.adventure {
+    display: grid;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adventure h2 {
+   justify-items:center ;
 }
 
 figure {
-    display:flex;
-    flex-flow: column;
-    max-width: 100px;
+
+    display: flex;
+    flex-flow: row;
+    width: 500px;
+    padding: 1px;
 }
 
+.adventure img {
+    width: 120px; ;
+}
+    
 
 
+figcaption {
+    padding: 5px;
+    font-size: 12px;
+   
+}
 
 
     
