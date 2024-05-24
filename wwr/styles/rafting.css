@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap');
 :root {
     --primary-color: #219EBC;
     --secondary-color: #023047;
     --Accent1-color: #FB8500;
     --Accent2-color: #8ECAE6;
 
-    --heading-font: 'nunito ital', sans-serf;
-    --paragraph-font: 'poppins ital', sans-serf;
+    --heading-font: 'nunito', sans-serf;
+    --paragraph-font: 'poppins', sans-serf;
 
     --nav-background-color: #219EBC;
     --nav-link-color: hsl(0, 0%, 97%);
@@ -147,7 +141,7 @@ section {
     background-color: #d3e9f5 ;
     
 }
-section img {
+.history img {
     width: 170px;
     padding: 0;
     margin: 1rem;
@@ -169,10 +163,10 @@ section img {
 
 
 .adventure {
-    display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: flex;
+    
+    
+    
 }
 
 .adventure h2 {
@@ -183,28 +177,27 @@ section img {
 }
 
 figure {
-
-    display: flex;
-    flex-flow: row;
-    width: 500px;
-    padding: 1px;
+    margin:0;
+    
+    
+    padding: 10px;
 }
 
 .adventure img {
-    width: 120px; ;
+    width:150px;
 }
     
 
 
 figcaption {
-    padding: 5px;
     font-size: 12px;
-    grid-column: 1;
-    grid-row: 1;
+    text-align: center;
    
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     max-width: 980px;
     padding: 2px;
     border-top: 1px solid  rgb(52, 147, 224);
@@ -212,10 +205,18 @@ footer {
 
 
 
-.social img {
+.social {
+    display: flex;
     width: 40px ;
-    float: right;
     
+    
+    
+}
+
+nav.social a {
+
+
+    background-color: white;
 }
 
 

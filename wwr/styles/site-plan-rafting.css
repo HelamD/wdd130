@@ -15,8 +15,8 @@ body {
     --Accent2-color: #8ECAE6;
 
 
-    --heading-font: 'nunito ital', sans-serf;
-    --paragraph-font: 'poppins ital', sans-serf;
+    --heading-font: 'nunito', sans-serf;
+    --paragraph-font: 'poppins', sans-serf;
 
     --nav-background-color: #219EBC;
     --nav-link-color: hsl(0, 0%, 97%);
