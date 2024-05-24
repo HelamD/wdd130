@@ -6,7 +6,7 @@
     <title>WDD 130 | HTML Form - user Poll </title>
     <meta name="description" content="Helam Bello, now part of the WDD 130, future web developer, poll-form">
     <meta name="author" content="Helam Bello">
-    <link rel="stylesheet" type="text/css" href="week05/styles/poll-form.css">
+    <link rel="stylesheet" type="text/css" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -15,15 +15,21 @@
     <main>
         <form>
             <fieldset>
+                
                 <legend> Contact information</legend>
+            <div class="form-item column2">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname">
+            </div>
                 <br>
+            <div class="form-item column2">
                 <label for="useremail">Email</label>
                 <input type="email" id="useremail" name="useremail">
+            </div>
             </fieldset>  
             <fieldset>
                 <legend>Questions</legend>
+             <div class="form-item column1">  
                 <label for="browser"> What is your favorite internet browser?</label>
                 <select id="browser" name="browser">
                     <option value="chrome">Chrome</option>
@@ -31,13 +37,15 @@
                     <option value="edge">Edge</option>
                     <option value="other">Other</option>
                 </select>
-                <br>
+            </div> 
+            <div class="form-item column1">
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" name="pet" id="pet">
-                <br>
+            </div>
+            <div class="form-item">  
                 <label for="feedback">List of places you have lived:</label>
                 <textarea name="feedback" id="feedback" rows="3" placeholder="Brazil, Venezuela, Colombia"></textarea>
-
+            </div>
                 
                 
             </fieldset>   
