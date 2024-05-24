@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapos.com/css2?family=Merriweather&family=Roboto&display+swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Goergia, serif;
+    font-size: 1.2em;
+    color: #a33737;
+}
+
