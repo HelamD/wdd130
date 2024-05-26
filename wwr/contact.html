@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Us</title>
     <meta name="description" content="contact information">
     <meta name="author" content="Helam Bello">
     <link rel="stylesheet" type="text/css" href="styles/contact.css">
@@ -22,50 +22,74 @@
         </nav>
     </header>
     <main>
+        <div class="info">
         <h1>Contact us</h1>
-        <p>=77 7777 777 777</p>
+        <h2>Phone number:</h2>
+        <p>+1 77 7777 777 777</p>
+        <h2>Email contact:</h2>
         <p>rafting@gmail.com</p>
-        <p>address</p>
-
+        <h2>Address:</h2>
+        <p>Somewhere out there 555
+         <br>
+            Brazil
+        </p>
+        </div>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d93026.2987436183!2d-51.59367500900598!3d-29.947499747428417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1716671257787!5m2!1sen!2sbr" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
-
-        <caption>
-
-        </caption>
-        <figcaption></figcaption>
-
-        <caption>
-            
-        </caption>
-        <figcaption></figcaption>
-
-        <caption>
-            
-        </caption>
-        <figcaption></figcaption>
-
+    <section>
+       <figure>
+            <img src="images/employee1.jpg" alt="employee1">
+            <figcaption>Ellen Fork | Rafting Guide</figcaption>
+       </figure>
+       <figure>
+            <img src="images/employee2.jpg" alt="employee2">
+            <figcaption> Mary Mcfly | Teen Mentor/Backpacking Wilderness Guide</figcaption>
+       </figure>
+       <figure>
+            <img src="images/employee3.jpg" alt="employee3">
+            <figcaption> Dylan White | Summer Camp Counselor</figcaption>
+        </figure>
+    </section>
     <form>
 
         <fieldset>
-            <label for=""></label>
-            <input type="text"></input>
+            <legend>Send us a message</legend>
 
-            <label for=""></label>
-            <input type="text"></input>
+            <label for="fname">Enter your full name</label>
+            <input type="text" id="fname" name="fname"></input>
 
-            <label for=""></label>
-            <input type="radio">
+            <label for="femail">Enter your email</label>
+            <input type="email" id="femail" name="femail"></input>
 
-            <label for=""></label>
-            <input type="text">
         </fieldset>
-    </form>
-        
+        <fieldset>
+            <legend>Purpose of the Message</legend>
+            <input type="radio" id="requirement1" name="requirement1" value="General Inquiry">
+            <label for="requirement1">General Inquiry</label>
+
+            <input type="radio" id="requirement2" name="requirement2" value="Reservation Question">
+            <label for="requirement2">Reservation Question</label>
+
+            <input type="radio" id="requirement3" name="requirement3" value="Website Suggestion">
+            <label for="requirement3">Website Suggestion</label>
+
+            <label for="message"></label>
+            <textarea name="message" id="message" rows="2" placeholder="your message for us"></textarea>
+
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
             
+        </fieldset>
+        
+    </form>
+        <button type="submit">Send</button>        
+           
+        
+     <h5>Click here to see the <a href="https://app.moqups.com/cBT8LP2tfSYSRuxMRXIoBLmUsiiJxSUO/view/page/ad64222d5">Wireframe</a> </h4>
     </main>
+    
     <footer>
         <p> ©️ 2024 💻 Rafting Site 💻 Helam Bello 💻 May 11th 2024</p>
         <nav class="social">
