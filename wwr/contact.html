@@ -10,14 +10,14 @@
 </head>
 <body>
     <header>
-        <img src="images\raft.jpg" alt="raft">
+        <img src="images/raft.jpg" alt="raft">
 
         <nav >
             <ul class="grid">
-              <i><a href="#">Rafting Plan</a></i>
-              <i><a href="#">About</a></i>
-              <i><a href="#">Trips</a></i>
-              <i><a href="#">Contact</a></i>
+              <a href="#">Rafting Plan</a></i>
+              <a href="#">About</a></i>
+              <a href="#">Trips</a></i>
+              <a href="#">Contact</a></i>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
 
     </div>
     
-        <section>
+<section>
             <h2>Guided for the best instructors</h2>
                 <div class="instructor">
         <figure>
@@ -54,42 +54,46 @@
                     <img src="images/employee3.jpg" alt="employee3">
                     <figcaption> Dylan White | Summer Camp Counselor</figcaption>                   
         </figure>
-            </section>
-                </div>
-    <form>
+</section>
 
-        <fieldset>
-            <legend>Send us a message</legend>
+        </div>
+                    <article>
+            <form>
 
-            <label for="fname">Enter your full name</label>
-            <input type="text" id="fname" name="fname"></input>
+                <fieldset>
+                    <legend>Send us a message</legend>
 
-            <label for="femail">Enter your email</label>
-            <input type="email" id="femail" name="femail"></input>
+                    <label for="fname">Enter your full name</label>
+                    <input type="text" id="fname" name="fullname"></input>
 
-        </fieldset>
-        <fieldset>
-            <legend>Purpose of the Message</legend>
-            <input type="radio" id="requirement1" name="requirement1" value="General Inquiry">
+                    <label for="femail">Enter your email</label>
+                    <input type="email" id="femail" name="femail">
+                    </input>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Purpose of the Message</legend>
+        <div>
+            <input type="radio" id="requirement1" name="requirement" value="General Inquiry" checked />
             <label for="requirement1">General Inquiry</label>
 
-            <input type="radio" id="requirement2" name="requirement2" value="Reservation Question">
+            <input type="radio" id="requirement2" name="requirement" value="Reservation Question"/>
             <label for="requirement2">Reservation Question</label>
 
-            <input type="radio" id="requirement3" name="requirement3" value="Website Suggestion">
+            <input type="radio" id="requirement3" name="requirement" value="Website Suggestion"/>
             <label for="requirement3">Website Suggestion</label>
-
+        </div>
             <label for="message"></label>
             <textarea name="message" id="message" rows="2" placeholder="your message for us"></textarea>
 
             <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" name="newsletter" id="newsletter">
+            <input type="checkbox" name="newsletter" id="newsletter">
             
         </fieldset>
-        
+        <button type="submit">Send it</button>
     </form>
-        <button type="submit">Send it</button>        
-           
+                
+    </article>
         
      <h5>Click here to see the <a href="https://app.moqups.com/cBT8LP2tfSYSRuxMRXIoBLmUsiiJxSUO/view/page/ad64222d5">Wireframe</a> </h4>
     </main>
