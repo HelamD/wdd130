@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap');
+@import url('https://fonts.googleapos.com/css2?family=Merriweather&family=Roboto&display+swap');
+
 :root {
     --primary-color: #219EBC;
     --secondary-color: #023047;
     --Accent1-color: #FB8500;
     --Accent2-color: #8ECAE6;
 
-    --heading-font: 'nunito', sans-serf;
-    --paragraph-font: 'poppins', sans-serf;
+    --heading-font: Merriweather, Georgia, serif;
+    --paragraph-font: Roboto, sans-serf;
 
     --nav-background-color: #219EBC;
     --nav-link-color: hsl(0, 0%, 97%);
@@ -213,6 +214,9 @@ footer {
 
 footer p {
     color: aliceblue;
+    align-self: center;
+    text-align: center;
+    
 }
 
 
@@ -228,7 +232,7 @@ footer p {
 nav.social a {
 
 
-    background-color: white;
+    background-color: rgb(19, 47, 71);
 }
 
 

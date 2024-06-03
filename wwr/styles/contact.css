@@ -239,8 +239,12 @@ footer {
 
 footer p {
     color: aliceblue;
-    justify-items: center;
+    align-self: center;
+    text-align: center;
+    
 }
+
+
 
 .social {
     display: flex;
@@ -252,7 +256,7 @@ footer p {
 
 nav.social a {
 
-    
+
     background-color: rgb(19, 47, 71);
 }
 
