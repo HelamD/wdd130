@@ -10,7 +10,7 @@
 
     --nav-background-color: #219EBC;
     --nav-link-color: hsl(0, 0%, 97%);
-    --nav-hover-link-color: #507283;
+    --nav-hover-link-color: #49657481;
     --nav-hover-background-color:#8ECAE6;
 }
 
@@ -29,7 +29,7 @@ header {
     
     grid-template-columns: 120px 1fr 2fr;
     max-width: 1500px;
-    background-color: #acddf7;
+    background-color: #0d5b85;
     padding: 1rem ;
     
 }
@@ -39,10 +39,14 @@ nav {
     
 }
 
+a {
+    color: #297297;
+}
+
 nav a {
-    background-color: rgb(241, 196, 113);
+    background-color: rgb(255, 255, 255);
     padding: 2px;
-    color: white;
+    border-radius: 7%;
     border: 1px solid  rgb(255, 255, 255);
 }
 
@@ -57,14 +61,15 @@ nav a {
 .grid a {
     text-decoration: none;
     display: block;
-    color: navy;
+    color: rgb(20, 20, 58);
     
 }
 
 header img {
     height: auto;
-    width: 100px;
-    
+    width: 170px;
+    background-color: #0d5b85;
+   
     
 
 }
@@ -121,7 +126,7 @@ article {
 article p {
    
     font-size: 20px;
-    
+    color: aliceblue;
     border: 100px;
     
 }
@@ -197,11 +202,17 @@ figcaption {
 }
 
 footer {
+    background-color: rgb(19, 47, 71);
     display: grid;
     grid-template-columns: 2fr 1fr;
     max-width: 980px;
+    height: 200px;
     padding: 2px;
     border-top: 1px solid  rgb(52, 147, 224);
+}
+
+footer p {
+    color: aliceblue;
 }
 
 
