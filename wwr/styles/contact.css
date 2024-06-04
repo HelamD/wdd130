@@ -41,9 +41,9 @@ nav {
 }
 
 nav a {
-    background-color: rgb(230, 191, 120);
+    background-color: rgb(255, 255, 255);
     padding: 2px;
-    color: white;
+    border-radius: 7%;
     border: 1px solid  rgb(255, 255, 255);
 }
 
