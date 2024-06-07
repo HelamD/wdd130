@@ -228,10 +228,13 @@ footer {
     border-top: 1px solid  rgb(52, 147, 224);
 }
 
-footer p {
+footer p  {
     color: aliceblue;
     align-self: center;
     text-align: center;
+    font-size: 20px;
+    grid-column: 1;
+
     
 }
 
